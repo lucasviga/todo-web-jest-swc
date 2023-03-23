@@ -9,9 +9,7 @@ This time, I setup the environment test with Jest + SWC.
 You can see a demo here: https://comforting-starburst-d8891b.netlify.app/
 
 ## About the project
-This project was created with @vitejs/plugin-react-swc template. According to the vite's documentation, replaces Babel with SWC during development. During builds, SWC+esbuild are used when using plugins, and esbuild only otherwise. For big projects that don't require non-standard React extensions, cold start and Hot Module Replacement (HMR) can be significantly faster.
-
-You can check <a target="_blank" href="https://main.vitejs.dev/plugins/#vitejs-plugin-react-swc">here</a>
+This project was created with @vitejs/plugin-react-swc template. According to the vite's documentation, replaces Babel with SWC during development. During builds, SWC+esbuild are used when using plugins, and esbuild only otherwise. For big projects that don't require non-standard React extensions, cold start and Hot Module Replacement (HMR) can be significantly faster. You can check <a target="_blank" href="https://main.vitejs.dev/plugins/#vitejs-plugin-react-swc">here</a>
 
 ### State Management
 
