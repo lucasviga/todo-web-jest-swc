@@ -1,0 +1,15 @@
+describe('Todo aapp', () => {
+  it('should create a todo, make as done and undo and remove', () => {
+    cy.visit('http://localhost:5173/')
+      .get('#todo')
+      .type('To study 2e2 tests')
+      .get('.c-jiWMKJ > svg')
+      .click()
+      .get('[data-testid="done"] > svg')
+      .click()
+      .get('[data-testid="undo"] > svg')
+      .click()
+      .get('[data-testid="remove"] > svg')
+      .click()
+  })
+})
